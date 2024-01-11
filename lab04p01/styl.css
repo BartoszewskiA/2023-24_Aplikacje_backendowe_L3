@@ -1,0 +1,16 @@
+table
+{
+border: none;
+margin-top: 20px;
+margin-left: 50px;
+}
+table td, table th, div
+{
+font-size: 1.5rem;
+border: 1px solid rgb(130, 123, 114);
+padding: 10px; 
+background-color: antiquewhite;
+}
+div {
+max-width: fit-content;
+}

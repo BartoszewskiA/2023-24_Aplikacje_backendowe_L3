@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ 
+<body>
+    <h1>KASYNO</h1>
+    <h3>Wybierz zakład:</h3>
+    <form action="wynik.php" method="post">
+        <div>
+            <input type="radio" name="gra" id="6z49" value="6z49">
+            <label for="6z49">6 z 49</label>
+        </div>
+        <div>
+            <input type="radio" name="gra" id="5z30" value="5z30">
+            <label for="5z100">5 z 30</label>
+        </div>
+        <br>
+        <label for="zaklady">Liczba zakładów:</label>
+        <input type="number" name="zaklady" min="1" max="100">
+        <br><br>
+        <input type="submit" value="Graj">
+    </form>
+</body>
+ 
+</html>
